@@ -14,7 +14,7 @@ pip install requests pandas beautifulsoup4
 ```
 
 ## Usage
-1. Open the script **file job_offers_parser.py** in a text editor or an integrated development environment (IDE).
+1. Open the script file **job_offers_parser.py** in a text editor or an integrated development environment (IDE).
 2. Set the desired parameters at the beginning of the script:
   * **PATH**: Path to the Excel file where the job offers will be saved.
   * **HOST**: The base URL of the website.
