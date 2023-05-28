@@ -9,7 +9,7 @@ Before running the script, make sure you have the following libraries installed:
 * **beautifulsoup4**
 You can install these dependencies using pip:
 
-```bash
+```python
 pip install requests pandas beautifulsoup4
 ```
 
@@ -22,7 +22,7 @@ pip install requests pandas beautifulsoup4
   * **HEADERS**: HTTP headers used in the requests.
 3. Run the script using the following command:
 
-```bash
+```python
 python job_offers_parser.py
 ```
 
