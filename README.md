@@ -21,14 +21,16 @@ pip install requests pandas beautifulsoup4
   * **URL**: The specific URL of the job offers page.
   * **HEADERS**: HTTP headers used in the requests.
 3. Run the script using the following command:
+
 ```bash
 python job_offers_parser.py
 ```
+
 4. When prompted, enter the number of pages you want to parse.
 5. The script will start parsing each page, retrieve the job offers information, and save it into the specified Excel file.
 Please note that the script assumes a specific structure of the target website's HTML. Any changes to the website's structure may require modifications to the script.
 
-##Output
+## Output
 The script will generate an Excel file (**Job_offers.xlsx**) containing the following information for each job offer:
 
 * Name of job: The title of the job offer.
@@ -37,5 +39,5 @@ The script will generate an Excel file (**Job_offers.xlsx**) containing the foll
 * Date of start: The start date of the job.
 You can customize the output by modifying the **get_content** function according to your needs.
 
-##Disclaimer
+## Disclaimer
 This script is for educational purposes only. Use it responsibly and respect the website's terms of service.
